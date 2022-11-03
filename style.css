@@ -1,0 +1,20 @@
+.card {
+  border: solid gray 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+}
+
+p {
+  font-size: 22px;
+}
+
+
+/* Edit below this line: */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
